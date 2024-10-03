@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body{
+      background-image: url(CT\ IMAGE.webp);
+      background-size: cover;
+      background-position: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Portfolio</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>This is Racharla Gopalakrishna. I am pursuing my UG in Mohan babu University.</p>
+    </section>
+    <section id="projects">
+      <h2>Projects</h2>
+      <p>completion of AWS Internship in internshipstudio</p>
+      <p>completion of webdevelopment in Next24</p>
+      <p>completion of java development in cognifyz</p>
+      <div id="project-list"></div>
+    </section>
+    <section id="blog">
+      <h2>Blog</h2>
+      <div id="blog-list"></div>
+    </section>
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>7989665712</p>
+      <form id="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+  <script src="scripts.js"></script>
+</body>
+</html>
